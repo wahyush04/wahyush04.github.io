@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+
 body {
     font-family: 'Mulish', sans-serif;
     height: 100%;
@@ -145,6 +147,10 @@ html {
     }
 }
 
+h2{
+    font-family: 'Mulish', sans-serif;
+}
+
 
 
 @media (max-width: 992px) {
@@ -160,11 +166,12 @@ html {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 100px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 .fa:hover {
